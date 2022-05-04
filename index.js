@@ -1,7 +1,11 @@
 const { uniq } = require('lodash');
+const { arrayNumeros, arrayLetras } = require('./array');
 
-const array = [1, 2, 4, 4, 6, 7, 1];
+console.log(arrayLetras);
+console.log(arrayNumeros);
 
-const arrayUnico = uniq(array);
+const arrayNumeroUnico = uniq(arrayNumeros);
+const arrayLetraUnica = uniq(arrayLetras);
 
-console.log(arrayUnico);
+console.log(arrayNumeroUnico);
+console.log(arrayLetraUnica);
